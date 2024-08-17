@@ -1,0 +1,103 @@
+@import url(blog-home.css);
+@import url(blog-post.css);
+@import url(typography.css);
+
+.container {
+    background-color: #fff;
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+a {
+    color: #4caf50;
+}
+
+a:hover {
+    color: #45a049;
+}
+
+a:focus {
+    color: #45a049;
+}
+
+hr {
+    margin: 5px;
+}
+
+input {
+    width: 45%;
+    height: 30px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    border: 0.5px solid #4caf50;
+    width: 45%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+    color: #fff;
+}
+
+button:active {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.date {
+    color: lightgray;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.header {
+    grid-area: header;
+    height: 100%;
+}
+
+.navbar {
+    grid-area: navbar;
+    height: 100%;
+    background-color: #2e7d32;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background-color: #66bb6a;
+    color: #000;
+}
+
+.footer {
+    grid-area: footer;
+    height: 100%;
+}
+
+code {
+    background-color: #2e7d32;
+    color: #fff;
+}
+
+quote {
+    font-style: italic;
+    color: #2e7d32;
+    text-indent: 20px;
+    margin: 20px;
+}
