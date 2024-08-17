@@ -25,3 +25,6 @@ body {
     font-style: normal;
 }
 
+code {
+    font: 11px monospace, sans-serif;
+}

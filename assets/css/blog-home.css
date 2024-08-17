@@ -9,7 +9,8 @@
     "article-list"
     "footer";
     height: 100%;
-    row-gap: 15px;
+    row-gap: 10px;
+    min-width: 320px;
 }
 
 #subscribe {
@@ -28,14 +29,14 @@
 .nested-articles {
     display: grid;
     grid-template-columns: repeat(3, 28%);
-    grid-template-rows: repeat(2, 360px);
+    grid-template-rows: repeat(2, 410px);
     grid-template-areas:
     "article1 article2 article3"
     "article4 article5 article6";
     align-items: center;
     justify-content: center;
-    row-gap: 15px;
-    column-gap: 15px;
+    row-gap: 10px;
+    column-gap: 10px;
     height: 100%;
     width: 100%;
 }
