@@ -10,79 +10,73 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
-<body>
-    <div class="article-container">
-        <div class="header">
-            <div class="title">
-                <h1>Personal Blog</h1>
-            </div>
-        </div>
-        <div class="navbar flex-center">
-            <a href="index.html">Home</a>
-            <a href="#">About</a>
-            <a href="#">Search</a>
-        </div>
-        <div class="article">
-            <img class="article-image" src="assets/img/code-repeat.jpg" alt="A picture of laptop computer with 5 sticky notes that say: Code, Debug, Learn, Sleep, and Repeat.">
-            <figcaption><em>A laptop computer with 5 sticky notes that say: Code, Debug, Learn, Sleep, and Repeat.</em></figcaption>
-            <span>Image source via <a href="https://pixabay.com/photos/code-code-debug-learn-sleep-repeat-4918187/" target="_blank">Pixabay</a></span>
-
-            <article>
-                <h1>Article 3</h1>
-                <p class="date">Aug 5, 2024</p>
-                <p>Magnam voluptas, ullamco, for eu, and ullamco dolore. Ea ab, nor incidunt adipisicing, nor voluptate. Quam. Pariatur. Numquam. Est quia dolore inventore, for ipsa. Ea. Et enim inventore dicta nihil, consectetur aliquip. Do adipisci nesciunt, for dolore. Magna amet, but ratione nesciunt sed minima, for ex. Iste enim. Commodi consequatur, but iste, yet pariatur dolores eu. Nesciunt ipsam quia magna architecto. Natus nisi. Odit minima exercitationem. Tempora fugiat, or adipisicing nihil corporis. Veritatis aliquam, yet quasi, for non, for velit. Iste voluptas, yet voluptatem. Fugit sunt ab perspiciatis ipsam, yet consequuntur. Quis laboris laboriosam eu, but incididunt. Adipisicing incidunt, or laborum laudantium. Magnam. Quasi.</p>
-                <p>Consectetur ullam aliqua, and laboris iste. Iste consequat esse vitae ratione minima. Nemo. Deserunt quisquam minim dolorem iure. Id.</p>
-
-                <div class="media-content">
-                    <div>
-                        <img class="image-content" src="assets/img/code-repeat.jpg" alt="A picture of laptop computer with 5 sticky notes that say: Code, Debug, Learn, Sleep, and Repeat.">
-                        <figcaption><em>A laptop computer with 5 sticky notes that say: Code, Debug, Learn, Sleep, and Repeat.</em></figcaption>
-                    </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+<body class="bp__container">
+    <main>
+        <div>
+            <div class="main__header">
+                <div class="main__title">
+                    <h1>Personal Blog</h1>
                 </div>
-
-                <h2>Sub-heading</h2>
-                <p><u>This is underline text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</u></p>
-                <blockquote>
-                    "This is a blockquote. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante."
-                </blockquote>
-                <code>
-                    document.getElementById("body").innerText = "Hello, World!";
-                </code>
-                <p><em>Let's emphasize this paragraph. Corporis quam consectetur, for consequat quia laborum. Quisquam occaecat, esse. Aperiam aut, so magna. Aperiam aliquam vel, or qui, perspiciatis odit, natus. Consequuntur. In ratione irure, or consectetur in vitae, but nisi. Aliquid magnam, nor anim. Nihil. Velitesse dolor, molestiae eos. In quis, and quis. Ullam anim do. Dolore qui, or aliqua adipisicing, nor voluptate, but aspernatur. Occaecat id, but consequuntur ad, veritatis corporis nihil. Quisquam sed dolor. Adipisci error, but autem. Et duis, for aliquid id. Error in ad, or cupidatat. Et architecto, so quis consectetur, nor anim, so quam. Quo do odit minim voluptatem unde. Occaecat vel odit. Magni tempor officia, so in, so ad veniam. Commodi duis voluptatem minima, and molestiae. Iste proident, for cupidatat.</em></p>
-            </article>
-
-            <div class="flex-center">
-                <a class="older-post" href="article2.html">Older Post</a>
-                <a class="newer-post" href="article4.html">Newer Post</a>
             </div>
-        </div>
-        <div class="right-panel">
-            <div class="bp-card" id="about">
-                <h2>About</h2>
-                <hr>
-                <img id="avatar" src="assets/img/author.jpg" alt="A picture of the author.">
-                <p><strong>Author:</strong> Jonathan Gillman</p>
-                <p><strong>Title:</strong> Web Developer</p>
-                <p><strong>Company:</strong> XYZ Corporation</p>
-                <p>Jonathan Gillman is a web developer with a passion for creating responsive and user-friendly websites.</p>
-
+            <nav id="nav__bar">
+                <ul id="nav__list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Search</a></li>
+                </ul>
+            </nav>
+            <article class="bp__card" id="bp__article">
+                <figure>
+                    <img class="bp-article__image" src="assets/img/code-repeat.jpg" alt="A picture of laptop computer with 5 sticky notes that say: Code, Debug, Learn, Sleep, and Repeat.">
+                    <figcaption><em>A laptop computer with 5 sticky notes that say: Code, Debug, Learn, Sleep, and Repeat.</em> Image source via <a href="https://pixabay.com/photos/code-code-debug-learn-sleep-repeat-4918187/" target="_blank">Pixabay</a></figcaption>
+                </figure>
+                <header>
+                    <h1>Article 3</h1>
+                    <p class="date">Aug 5, 2024</p>
+                </header>
                 <div>
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.yourwebsite.com/article1.html" target="_blank">
-                        <img src="assets/img/facebook.png" alt="Share on Facebook">
-                    </a>
-                    <a href="https://twitter.com/intent/tweet?url=https://www.yourwebsite.com/article1.html&text=Check%20out%20this%20article!" target="_blank">
-                        <img src="assets/img/twitter.png" alt="Share on Twitter">
-                    </a>
-                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.yourwebsite.com/article1.html" target="_blank">
-                        <img src="assets/img/linkedin.png" alt="Share on LinkedIn">
-                    </a>
+                    <p>Magnam voluptas, ullamco, for eu, and ullamco dolore. Ea ab, nor incidunt adipisicing, nor voluptate. Quam. Pariatur. Numquam. Est quia dolore inventore, for ipsa. Ea. Et enim inventore dicta nihil, consectetur aliquip. Do adipisci nesciunt, for dolore. Magna amet, but ratione nesciunt sed minima, for ex. Iste enim. Commodi consequatur, but iste, yet pariatur dolores eu. Nesciunt ipsam quia magna architecto. Natus nisi. Odit minima exercitationem. Tempora fugiat, or adipisicing nihil corporis. Veritatis aliquam, yet quasi, for non, for velit. Iste voluptas, yet voluptatem. Fugit sunt ab perspiciatis ipsam, yet consequuntur. Quis laboris laboriosam eu, but incididunt. Adipisicing incidunt, or laborum laudantium. Magnam. Quasi.</p>
+                    <p>Consectetur ullam aliqua, and laboris iste. Iste consequat esse vitae ratione minima. Nemo. Deserunt quisquam minim dolorem iure. Id.</p>
+
+                    <h2>Sub-heading</h2>
+                    <p><u>This is underline text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</u></p>
+                    <blockquote>
+                        "This is a blockquote. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante."
+                    </blockquote>
+                    <code>
+                        document.getElementById("body").innerText = "Hello, World!";
+                    </code>
+                    <p><em>Let's emphasize this paragraph. Corporis quam consectetur, for consequat quia laborum. Quisquam occaecat, esse. Aperiam aut, so magna. Aperiam aliquam vel, or qui, perspiciatis odit, natus. Consequuntur. In ratione irure, or consectetur in vitae, but nisi. Aliquid magnam, nor anim. Nihil. Velitesse dolor, molestiae eos. In quis, and quis. Ullam anim do. Dolore qui, or aliqua adipisicing, nor voluptate, but aspernatur. Occaecat id, but consequuntur ad, veritatis corporis nihil. Quisquam sed dolor. Adipisci error, but autem. Et duis, for aliquid id. Error in ad, or cupidatat. Et architecto, so quis consectetur, nor anim, so quam. Quo do odit minim voluptatem unde. Occaecat vel odit. Magni tempor officia, so in, so ad veniam. Commodi duis voluptatem minima, and molestiae. Iste proident, for cupidatat.</em></p>
+
+                    <footer class="bp-article__footer">
+                        <a class="pb__older-post" href="article2.html">Older Post</a>
+                        <a class="bp-btn__newer-post" href="article4.html">Newer Post</a>
+                    </footer>
+                </div>
+            </article>
+            <div>
+                <div id="bp__about">
+                    <h2>About</h2>
+                    <hr>
+                    <figure>
+                        <img id="bp-about__avatar" src="assets/img/author.jpg" alt="A picture of the author.">
+                        <figcaption><em>A picture of the author.</em></figcaption>
+                    </figure>
+                    <p><strong>Author:</strong> Jonathan Gillman</p>
+                    <p><strong>Title:</strong> Web Developer</p>
+                    <p><strong>Company:</strong> XYZ Corporation</p>
+                    <p>Jonathan Gillman is a web developer with a passion for creating responsive and user-friendly websites.</p>
+                    <div class="bp__social-media">
+                        <a class="fa fa-facebook" href="https://www.facebook.com/" target="_blank"></a>
+                        <a class="fa fa-twitter" href="https://twitter.com/" target="_blank"></a>
+                        <a class="fa fa-linkedin" href="https://www.linkedin.com/" target="_blank"></a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="footer flex-center">
-            <p>&copy; 2024 <a href="https://www.github.com/jonathangi28">Jonathan Gillman</a></p>
-        </div>
+            <div class="main__footer">
+                <p>&copy; 2024 <a href="https://www.github.com/jonathangi28">Jonathan Gillman</a></p>
+            </div>
+        </main>
     </div>
 </body>
 </html>

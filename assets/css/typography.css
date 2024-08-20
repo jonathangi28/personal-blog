@@ -18,13 +18,23 @@ body {
     font-style: normal;
 }
 
-.date {
+.card__date,
+.bp-article__date {
     font-family: "Edu VIC WA NT Beginner", cursive, sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
 
-code {
+code,
+.bp-article__code {
     font: 11px monospace, sans-serif;
 }
+
+@media (min-width: 600px) {
+    code,
+    .bp-article__code {
+        font: 13px monospace, sans-serif;
+    }
+}
+
